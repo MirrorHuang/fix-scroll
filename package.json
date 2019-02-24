@@ -1,0 +1,37 @@
+{
+  "name": "fix-scroll",
+  "version": "0.0.1",
+  "description": "fixed element when scrolling",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start-storybook -p 9001 -c .storybook",
+    "build": "rm -rf dist/ && webpack --mode=production"
+  },
+  "keywords": [
+    "iscroll",
+    "react"
+  ],
+  "author": "huangjingxin",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "iscroll": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^4.1.12",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

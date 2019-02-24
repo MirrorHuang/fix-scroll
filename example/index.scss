@@ -1,0 +1,20 @@
+.fix-scroll {
+    position: absolute;
+    z-index: 11;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    top: 100px;
+  }
+  .scroll-wrappar {
+    height: 200px;
+    overflow: hidden;
+    touch-action: manipulation;
+  }
+  .image{
+    height: 100px;
+    width: 100px;
+  }
+  .margin{
+    margin-top: 30px;
+  } 
