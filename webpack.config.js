@@ -4,7 +4,7 @@ module.exports = {
     entry: path.join(__dirname, './src/FixScroll/index.jsx'),
     output: {
         path: path.join(__dirname, '/dist'),
-        filename: 'FixScroll.js',
+        filename: 'fix-scroll.js',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
@@ -30,9 +30,5 @@ module.exports = {
                 }
             },
         }]
-    },
-    externals: {
-        "react": 'react',
-        'react-dom': 'ReactDOM'
     }
 };

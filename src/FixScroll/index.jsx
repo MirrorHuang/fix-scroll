@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cls from 'classnames';
 import './index.scss';
-import { Object } from 'es6-shim';
 
-export default class ScrollFix extends Component {
+export default class FixScroll extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +20,7 @@ export default class ScrollFix extends Component {
   componentDidMount() {
     const { headEle, fixEle, config } = this.props;
     const IScroll = require('iscroll/build/iscroll-probe.js');
-    const scrollWrappar = document.querySelector('.scroll-wrappar');
+    const scrollWrappar = document.querySelector('#scroll-wrappar');
     const Config = Object.assign({
       probeType: 3,
       disableTouch: false,
@@ -125,7 +124,7 @@ export default class ScrollFix extends Component {
   }
 }
 
-ScrollFix.propTypes = {
+FixScroll.propTypes = {
   headEle: PropTypes.string, // 头部元素类名
   fixEle: PropTypes.string, // 需要吸顶元素类名
   config: PropTypes.object, // iscroll配置
@@ -134,6 +133,6 @@ ScrollFix.propTypes = {
   handleScroll: PropTypes.func,
   handleScrollEnd: PropTypes.func,
 };
-ScrollFix.defaultProps = {
+FixScroll.defaultProps = {
   fixEle: '.fix-scroll',
 };

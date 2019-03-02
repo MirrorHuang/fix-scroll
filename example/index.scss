@@ -5,16 +5,13 @@
     height: 30px;
     background-color: #fff;
     top: 100px;
+    line-height: 30px;
   }
-  .scroll-wrappar {
+  .main {
     height: 200px;
-    overflow: hidden;
-    touch-action: manipulation;
   }
   .image{
     height: 100px;
     width: 100px;
+    margin-bottom: 30px;
   }
-  .margin{
-    margin-top: 30px;
-  } 

@@ -12,6 +12,10 @@
     "iscroll",
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MirrorHuang/fix-scroll.git"
+  },
   "author": "huangjingxin",
   "license": "ISC",
   "dependencies": {
