@@ -126,7 +126,7 @@ export default class FixScroll extends Component {
 
 FixScroll.propTypes = {
   headEle: PropTypes.string, // 头部元素类名
-  fixEle: PropTypes.string, // 需要吸顶元素类名
+  fixEle: PropTypes.string.isRequired, // 需要吸顶元素类名
   config: PropTypes.object, // iscroll配置
   className: PropTypes.string,
   handleScrollStart: PropTypes.func,

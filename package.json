@@ -2,7 +2,7 @@
   "name": "fix-scroll",
   "version": "0.0.1",
   "description": "fixed element when scrolling",
-  "main": "dist/main.js",
+  "main": "dist/fix-scroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 9001 -c .storybook",
