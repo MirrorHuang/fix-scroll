@@ -1,5 +1,5 @@
 {
-  "name": "@mirror/fix-scroll",
+  "name": "@jxh/fix-scroll",
   "version": "0.0.1",
   "description": "fixed element when scrolling",
   "main": "dist/fix-scroll.js",

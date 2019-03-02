@@ -1,7 +1,7 @@
 # fix-scroll
 基于iscroll的滑动吸顶组件
 ## use
-npm install @mirror/fix-scroll
+npm install @jxh/fix-scroll
 
 # props
 
